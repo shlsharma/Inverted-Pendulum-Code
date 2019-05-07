@@ -1,8 +1,8 @@
 const int stepper_direction = 4;
 const int stepper_step = 7;
-volatile float init_angle = 804;
+volatile float init_angle = 804; //Change here for the reference angle
 int x = 0;
-float kd = 0.97;
+float kd = 0.97; //Kd value
 volatile int present_angle = 0;
 volatile int previous_angle = 0;
 const int limit1 = 3;
